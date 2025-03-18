@@ -2,6 +2,11 @@
     font-family: "Montserrat",sans-serif;
 }
 
+
+html,*{
+    box-sizing: border-box;
+}
+
 body h1, h2,ul{
     margin: 0;
     padding: 0;
@@ -24,10 +29,32 @@ h1{
 .list{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .article-item{
     width: 30%;
+    margin-bottom: 30px;
+}
+
+
+.text-item{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container{
+    padding: 50px;
+}
+
+
+.ar-img{
+    width: 100%;
+}
+
+h2{
+    margin-bottom: 20px;
 }
